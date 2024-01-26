@@ -13,16 +13,6 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: const Color.fromRGBO(0, 150, 136, 1),
       ),
-      body: Center(
-        child: Text('Hello Flutter',
-            style: TextStyle(
-              fontSize: 20.0,
-              fontWeight: FontWeight.bold,
-              letterSpacing: 2.0,
-              color: Colors.grey[600],
-              fontFamily: 'indieFlower',
-            )),
-      ),
       floatingActionButton: FloatingActionButton(
         child: Text('Click'),
         backgroundColor: Colors.amber,

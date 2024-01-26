@@ -1,0 +1,15 @@
+// body: Center(
+
+      //using images as bg in flutter
+
+      //     child: Image(
+      //   image: NetworkImage(
+      //       'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.QTkrHSJ6rNPSPRoejqg6rgHaNL%26pid%3DApi&f=1&ipt=32c0888fd472d261a48b354bdd606c7cbcf06edcccd4c60504f0e41635d00d29&ipo=images'),
+      // ),
+      //     child: Image(
+      //   image: AssetImage('Assests/motocross.jpeg'),
+      // )
+      //use image.network for online images
+      // child: Image.asset('Assests/motocross.jpeg'),
+
+      changes are required in the pubspec.yaml file for appropriate changes
