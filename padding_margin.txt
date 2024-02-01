@@ -1,0 +1,19 @@
+Container(
+          padding: EdgeInsets.all(),
+          margin: EdgeInsets.all(),
+          color: Colors.grey[400],
+          child: Text("Hello")),
+Container(
+          padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+          margin: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+          color: Colors.grey[400],
+          child: Text("Hello")),
+Container(
+          padding: EdgeInsets.fromltrb(20,30,40,120),
+          margin: EdgeInsets.fromltrb(20,30,40,120),
+          color: Colors.grey[400],
+          child: Text("Hello")),
+
+padding Widget
+Padding(padding: EdgeInsets.all(90.0), child: Text('hello')),
+doesnt allow margin or colour 

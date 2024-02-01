@@ -1,0 +1,20 @@
+Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: <Widget>[
+          Container(
+              padding: EdgeInsets.all(20.0),
+              margin: EdgeInsets.all(20.0),
+              color: Colors.blue,
+              child: Text('uno')),
+          Container(
+              padding: EdgeInsets.all(20.0),
+              margin: EdgeInsets.all(20.0),
+              color: Colors.blue,
+              child: Text('dos')),
+          Container(
+              padding: EdgeInsets.all(20.0),
+              margin: EdgeInsets.all(20.0),
+              color: Colors.blue,
+              child: Text('tres'))
+        ],
+      ),

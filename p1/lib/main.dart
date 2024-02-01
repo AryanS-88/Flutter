@@ -13,6 +13,7 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: const Color.fromRGBO(0, 150, 136, 1),
       ),
+      body: ()
       floatingActionButton: FloatingActionButton(
         child: Text('Click'),
         backgroundColor: Colors.amber,
