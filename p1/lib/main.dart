@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 void main() => runApp(MaterialApp(
-      home: Home(),
+      home: Ninjacard(),
     ));
 
-class Home extends StatelessWidget {
+class Ninjacard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -13,7 +13,6 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: const Color.fromRGBO(0, 150, 136, 1),
       ),
-      body: ()
       floatingActionButton: FloatingActionButton(
         child: Text('Click'),
         backgroundColor: Colors.amber,
@@ -22,5 +21,20 @@ class Home extends StatelessWidget {
         },
       ),
     );
+  }
+}
+
+class Test extends StatefulWidget {
+  const Test({super.key});
+
+  @override
+  State<Test> createState() => _TestState();
+}
+
+class _TestState extends State<Test> {
+  int counter = 1;
+  @override
+  Widget build(BuildContext context) {
+    return Container();
   }
 }
